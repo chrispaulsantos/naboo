@@ -1,8 +1,8 @@
 {
-  "name": "classes",
+  "name": "naboo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/styles.scss",
   "scripts": {
     "build": "node-sass src/styles.scss dist/out.css"
   },
