@@ -4,11 +4,12 @@
   "description": "",
   "main": "src/styles.scss",
   "scripts": {
-    "build": "node-sass src/styles.scss dist/out.css"
+    "build": "sass src/styles.scss:dist/out.css",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^9.0.0"
+    "sass": "^1.0.0"
   }
 }
