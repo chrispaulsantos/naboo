@@ -15,12 +15,22 @@
     flex-direction: row-reverse;
 }
 
-.flex-column {
+.flex-col {
     flex-direction: column;
 }
 
-.flex-column-reverse {
+.flex-col-reverse {
     flex-direction: column-reverse;
+}
+
+@media screen and (max-width: 767px) {
+    .flex-row-md {
+        flex-direction: row;
+    }
+
+    .flex-col-md {
+        flex-direction: column;
+    }
 }
 
 /*
