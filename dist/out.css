@@ -48,6 +48,9 @@
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█
 █░▀░█ █▀█ █▀▄ █▄█ █ █░▀█
 */
+.m-a {
+  margin: auto; }
+
 .m-0 {
   margin: 0; }
 
@@ -67,6 +70,9 @@
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█ ▄▄ ▀█▀ █▀█ █▀█
 █░▀░█ █▀█ █▀▄ █▄█ █ █░▀█ ░░ ░█░ █▄█ █▀▀
 */
+.mt-a {
+  margin-top: auto; }
+
 .mt-0 {
   margin-top: 0; }
 
@@ -86,6 +92,9 @@
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█ ▄▄ █▄▄ █▀█ ▀█▀ ▀█▀ █▀█ █▀▄▀█
 █░▀░█ █▀█ █▀▄ █▄█ █ █░▀█ ░░ █▄█ █▄█ ░█░ ░█░ █▄█ █░▀░█
 */
+.mb-a {
+  margin-bottom: auto; }
+
 .mb-0 {
   margin-bottom: 0; }
 
@@ -105,6 +114,9 @@
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█ ▄▄ █░░ █▀▀ █▀▀ ▀█▀
 █░▀░█ █▀█ █▀▄ █▄█ █ █░▀█ ░░ █▄▄ ██▄ █▀░ ░█░
 */
+.ml-a {
+  margin-left: auto; }
+
 .ml-0 {
   margin-left: 0; }
 
@@ -124,6 +136,9 @@
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█ ▄▄ █▀█ █ █▀▀ █░█ ▀█▀
 █░▀░█ █▀█ █▀▄ █▄█ █ █░▀█ ░░ █▀▄ █ █▄█ █▀█ ░█░
 */
+.mr-a {
+  margin-right: auto; }
+
 .mr-0 {
   margin-right: 0; }
 
@@ -143,19 +158,28 @@
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█ ▄▄ █░░ █▀▀ █▀▀ ▀█▀ ▄▄ █▀█ █ █▀▀ █░█ ▀█▀
 █░▀░█ █▀█ █▀▄ █▄█ █ █░▀█ ░░ █▄▄ ██▄ █▀░ ░█░ ░░ █▀▄ █ █▄█ █▀█ ░█░
 */
+.mlr-a {
+  margin-left: auto;
+  margin-right: auto; }
+
 .mlr-0 {
+  margin-left: 0;
   margin-right: 0; }
 
 .mlr-1 {
+  margin-left: 0.5rem;
   margin-right: 0.5rem; }
 
 .mlr-2 {
+  margin-left: 1rem;
   margin-right: 1rem; }
 
 .mlr-3 {
+  margin-left: 2rem;
   margin-right: 2rem; }
 
 .mlr-4 {
+  margin-left: 3rem;
   margin-right: 3rem; }
 
 /*
@@ -271,3 +295,9 @@
 
 .plr-4 {
   padding-right: 3rem; }
+
+.text-white {
+  color: #e8e8e8; }
+
+.text-dark {
+  color: #666; }
