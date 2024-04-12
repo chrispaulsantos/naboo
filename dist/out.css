@@ -83,6 +83,9 @@
   .align-items-center-md {
     align-items: center;
   }
+  .align-items-flex-start-md {
+    align-items: flex-start;
+  }
 }
 /*
 █▀▄▀█ ▄▀█ █▀█ █▀▀ █ █▄░█
