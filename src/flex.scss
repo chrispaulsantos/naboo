@@ -54,6 +54,20 @@
     justify-content: space-between;
 }
 
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+    .justify-content-center-md {
+        justify-content: center;
+    }
+
+    .justify-content-space-around-md {
+        justify-content: space-around;
+    }
+}
+
 /*
 ▄▀█ █░░ █ █▀▀ █▄░█ ▄▄ █ ▀█▀ █▀▀ █▀▄▀█ █▀
 █▀█ █▄▄ █ █▄█ █░▀█ ░░ █ ░█░ ██▄ █░▀░█ ▄█
@@ -69,4 +83,10 @@
 
 .align-items-flex-end {
     align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .align-items-center-md {
+        align-items: center;
+    }
 }
